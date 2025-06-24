@@ -24,7 +24,7 @@ pipeline {
             when { branch 'main' }
             steps {
                 sh 'npm start &'
-                echo "Deployed to http://localhost:3000"
+                echo "Deployed to http://localhost:6666"
             }
         }
     }
