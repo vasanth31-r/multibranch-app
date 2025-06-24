@@ -2,7 +2,7 @@ const express = require('express');
 const { add } = require('./math');
 
 const app = express();
-const PORT = 3000;
+const PORT = 6666;
 
 app.get('/', (req, res) => {
   res.send(`Hello from branch ${process.env.BRANCH_NAME}!`);
